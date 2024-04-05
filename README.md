@@ -24,8 +24,7 @@ This is a simple to-do list application built using React. It allows users to ad
    git clone https://github.com/your-username/react-todo-list.git
    ```
 
-2. Navigate to the project directory:
-
+2. Navigate to the project directory
 
 3. Install dependencies:
 
