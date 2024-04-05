@@ -1,0 +1,44 @@
+.animated-background {
+  background: linear-gradient(90deg, #c664c1 0%, #1286d5 100%); 
+background-size: 400% 400%;
+animation: bgAnimation 30s ease infinite;
+}
+
+@keyframes bgAnimation {
+
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.23);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.background1 {
+  background: rgba(255, 255, 255, 0.28);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.background2{
+  background: rgba(255, 255, 255, 0.24);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
